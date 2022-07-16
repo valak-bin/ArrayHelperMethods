@@ -9,7 +9,7 @@ namespace ArrayHelpersLibrary
     public static class ArrayHelpers
     {
         // SwapInts takes in an array and two positions. The method will swap the values for the two.
-        static void SwapInts(int[] arr, int firstIndexPosition, int secondIndexPosition)
+        public static void SwapInts(int[] arr, int firstIndexPosition, int secondIndexPosition)
         {
             // Store the first element's index
             int tempArr = arr[firstIndexPosition];
