@@ -20,5 +20,13 @@ namespace ArrayHelpersLibrary
             // Assigns the second index to the first index temp position
             arr[secondIndexPosition] = tempArr;
         }
+
+        // Check if two arrays are equal. If they have the same number of elements and values of those elements.
+        // Generic type <T> can pass any two arrays of the same type.
+        public static bool CheckArrayEquality<T>(T[] firstArr, T[] secondArr)
+        {
+            return Enumerable.SequenceEqual(firstArr, secondArr);
+        }
+
     }
 }
